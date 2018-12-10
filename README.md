@@ -4,12 +4,9 @@ Team Member 1 : SeokHoon Kim <SeokhoonKim@stonybrook.edu>
 Team Member 2 : Andy Lau <andy.lau@stonybrook.edu>
 
 We used Nikhil's GUI to implement the PA3.
-
-Login Credential that is available at the begining
--UserName : dwarren@cs.sunysb.edu
--Password : password6
--Title : Manager 
-
-CRR (Customer Representatives) users can be created within Manager's page and new Customers can be created within CRR's page.
-
-Email and Password that is typed when creating CRR and Customer can be used as credentials for login. 
+Notes about Project
+- GUI was implemented using GUI provided by TA
+- LoginDAO was not implemented --  information that relied on login info (such as getting session attributes such as customerID when as a customer in the home.jsp page) was hardcoded into controller classes for testing
+You will have to hard code the title in the loginDao to login as different role.
+- SubmitBid function not functioning properly -- improper access/user/pass
+- Additional Person table added based on PA#2 solution w/ corresponding model, dao, controllers + extra viewPerson button on customerRepresentative.jsp
